@@ -10,6 +10,7 @@ function setup() {
     weight = random(400, 1500);
 
     car = createSprite(50, 200, 70, 50);
+    car.shapeColor = 'blue'
 
     wall = createSprite(700, 200, 60, 60);
     wall.shapeColor = 'cyan '
